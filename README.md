@@ -6,13 +6,13 @@ This is a book record management API Backend for the management of records and b
 
 ## /users
 
-POST: Create a new user
-GET: Get all list of users
+POST: Create a new user ✅
+GET: Get all list of users ✅
 
 ## /users/{id}
 
-GET: Get a user by id
-PUT: Update a user by id
+GET: Get a user by id ✅
+PUT: Update a user by id ✅
 DELETE: Delete a user by id (check if he/she has a issued book) (is there any fine to be paid)
 
 ## /users/subscription-details/{id}
@@ -21,7 +21,7 @@ GET: Get user subscription details
 
 1. Date of subscription
 2. Valid till
-   3.Fine if any
+3.Fine if any
 
 ## /books
 
